@@ -1,27 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.velezreyes.quiz.Question6Test
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in org.velezreyes.quiz.Question6Test
-drinkNotFree  Time elapsed: 0.031 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <org.velezreyes.quiz.question6.NotEnoughMoneyException> but was: <java.lang.NullPointerException>
-	at org.velezreyes.quiz.Question6Test.drinkNotFree(Question6Test.java:28)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.pressButton(String)" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.lambda$drinkNotFree$0(Question6Test.java:29)
-	at org.velezreyes.quiz.Question6Test.drinkNotFree(Question6Test.java:28)
-
-canGetScottColaFor75Cents  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.canGetScottColaFor75Cents(Question6Test.java:37)
-
-canCreateVendingMachineInstance  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.velezreyes.quiz.Question6Test.canCreateVendingMachineInstance(Question6Test.java:21)
-
-canGetKarenTeaForOneDollar  Time elapsed: 0.016 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.canGetKarenTeaForOneDollar(Question6Test.java:66)
-
-otherDrinksUnknown  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.otherDrinksUnknown(Question6Test.java:86)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.velezreyes.quiz.Question6Test

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.velezreyes.quiz.Question6Test" time="0.062" tests="5" errors="3" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.velezreyes.quiz.Question6Test" time="0.063" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="W:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="W:\Users\wicam\AppData\Local\Temp\surefire5960860456120475100\surefirebooter13513956719487551670.jar W:\Users\wicam\AppData\Local\Temp\surefire5960860456120475100 2023-11-02T09-09-25_990-jvmRun1 surefire9278760924548197392tmp surefire_06422805516175112943tmp"/>
+    <property name="sun.java.command" value="W:\Users\wicam\AppData\Local\Temp\surefire2138533267837212949\surefirebooter6927918601214128281.jar W:\Users\wicam\AppData\Local\Temp\surefire2138533267837212949 2023-11-02T09-57-00_907-jvmRun1 surefire7616709103491710999tmp surefire_09834768826396883983tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="W:\Users\wicam\Documents\pruebaYuliana\ForkFirstQuizz\part2\target\test-classes;W:\Users\wicam\Documents\pruebaYuliana\ForkFirstQuizz\part2\target\classes;W:\Users\wicam\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;W:\Users\wicam\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;W:\Users\wicam\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;W:\Users\wicam\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;W:\Users\wicam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;W:\Users\wicam\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;W:\Users\wicam\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;W:\Users\wicam\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="W:\Users\wicam\AppData\Local\Temp\surefire5960860456120475100\surefirebooter13513956719487551670.jar"/>
+    <property name="surefire.real.class.path" value="W:\Users\wicam\AppData\Local\Temp\surefire2138533267837212949\surefirebooter6927918601214128281.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
@@ -56,32 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="drinkNotFree" classname="org.velezreyes.quiz.Question6Test" time="0.031">
-    <failure message="Unexpected exception type thrown, expected: &lt;org.velezreyes.quiz.question6.NotEnoughMoneyException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <org.velezreyes.quiz.question6.NotEnoughMoneyException> but was: <java.lang.NullPointerException>
-	at org.velezreyes.quiz.Question6Test.drinkNotFree(Question6Test.java:28)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.pressButton(String)" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.lambda$drinkNotFree$0(Question6Test.java:29)
-	at org.velezreyes.quiz.Question6Test.drinkNotFree(Question6Test.java:28)
-]]></failure>
-  </testcase>
-  <testcase name="canGetScottColaFor75Cents" classname="org.velezreyes.quiz.Question6Test" time="0">
-    <error message="Cannot invoke &quot;org.velezreyes.quiz.question6.VendingMachine.insertQuarter()&quot; because &quot;vm&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.canGetScottColaFor75Cents(Question6Test.java:37)
-</error>
-  </testcase>
-  <testcase name="canCreateVendingMachineInstance" classname="org.velezreyes.quiz.Question6Test" time="0">
-    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.velezreyes.quiz.Question6Test.canCreateVendingMachineInstance(Question6Test.java:21)
-]]></failure>
-  </testcase>
-  <testcase name="canGetKarenTeaForOneDollar" classname="org.velezreyes.quiz.Question6Test" time="0.016">
-    <error message="Cannot invoke &quot;org.velezreyes.quiz.question6.VendingMachine.insertQuarter()&quot; because &quot;vm&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.canGetKarenTeaForOneDollar(Question6Test.java:66)
-</error>
-  </testcase>
-  <testcase name="otherDrinksUnknown" classname="org.velezreyes.quiz.Question6Test" time="0">
-    <error message="Cannot invoke &quot;org.velezreyes.quiz.question6.VendingMachine.insertQuarter()&quot; because &quot;vm&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.velezreyes.quiz.question6.VendingMachine.insertQuarter()" because "vm" is null
-	at org.velezreyes.quiz.Question6Test.otherDrinksUnknown(Question6Test.java:86)
-</error>
-  </testcase>
+  <testcase name="drinkNotFree" classname="org.velezreyes.quiz.Question6Test" time="0.031"/>
+  <testcase name="canGetScottColaFor75Cents" classname="org.velezreyes.quiz.Question6Test" time="0"/>
+  <testcase name="canCreateVendingMachineInstance" classname="org.velezreyes.quiz.Question6Test" time="0"/>
+  <testcase name="canGetKarenTeaForOneDollar" classname="org.velezreyes.quiz.Question6Test" time="0"/>
+  <testcase name="machineResets" classname="org.velezreyes.quiz.Question6Test" time="0"/>
+  <testcase name="otherDrinksUnknown" classname="org.velezreyes.quiz.Question6Test" time="0"/>
 </testsuite>
