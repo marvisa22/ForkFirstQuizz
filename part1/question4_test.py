@@ -32,8 +32,7 @@ def test_question4_only_owned_by_bessie():
     rows = res.fetchall()
 
   rows.sort()
-# se corrige unit test porque besse tiene 3 mascotas
-  assert len(rows) == 3  
+
+  assert len(rows) == 2
   assert rows[0] == ('bessie', 'leyla', 'gray whale')
-  assert rows[1] == ('bessie', 'randolph', 'lemur') 
-  assert rows[2] == ('bessie', 'ricky', 'lobster')
+  assert rows[1] == ('bessie', 'randolph', 'lemur')

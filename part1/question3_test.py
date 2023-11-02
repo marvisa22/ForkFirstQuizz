@@ -1,5 +1,3 @@
-from question3 import alchemy_combine, make_oven
-
 def test_alchemy_combine():
 
   assert alchemy_combine(
@@ -19,9 +17,3 @@ def test_alchemy_combine():
     ["cheese", "dough", "tomato"],
     150
   ) == "pizza"
-
-  assert alchemy_combine(
-    make_oven(),
-    ["onion", "oil", "tomato"],
-    45
-  ) == "salad"
