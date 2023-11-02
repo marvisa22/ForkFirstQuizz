@@ -1,0 +1,5 @@
+org\velezreyes\quiz\question6\NotEnoughMoneyException.class
+org\velezreyes\quiz\question6\UnknownDrinkException.class
+org\velezreyes\quiz\question6\VendingMachineImpl.class
+org\velezreyes\quiz\question6\VendingMachine.class
+org\velezreyes\quiz\question6\Drink.class
