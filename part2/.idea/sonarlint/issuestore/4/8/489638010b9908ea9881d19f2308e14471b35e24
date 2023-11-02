@@ -1,0 +1,3 @@
+
+{
+java:S4165"eRemove this useless assignment; "isFizzy" already holds the assigned value along all execution paths.(¢ú““
